@@ -1,0 +1,6 @@
+[server]
+# Disables deep module introspection to prevent transformers/torchvision watcher warnings
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
