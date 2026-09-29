@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-
+#importing libraries
 from document_ingestion import load_document
 from chunking import chunk_documents
 from vector_embedding import load_vector_store, create_vector_store, PERSIST_DIRECTORY
